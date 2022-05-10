@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM public.ecr.aws/c2b4r4d4/php:8.0-apache
 RUN apt -y update
 RUN rm -rf /var/www/html/index.html
 RUN service apache2 start
